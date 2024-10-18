@@ -1,0 +1,2 @@
+# angularclima
+Comunicación entre componentes

@@ -6,5 +6,15 @@ import { Component } from '@angular/core';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'SegundoParcial';
+  
+temperaturaClimaMessage: string = '';
+
+receivetemperaturaClimaMessage($event: string ) {
+  this.temperaturaClimaMessage = $event;
 }
+
+
+
+ 
+  }
+
